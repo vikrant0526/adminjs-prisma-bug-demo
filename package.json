@@ -1,0 +1,23 @@
+{
+  "name": "adminjs-prisma-bug-demo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/app.ts"
+  },
+  "dependencies": {
+    "@adminjs/fastify": "^4.0.0",
+    "@adminjs/prisma": "^4.0.0",
+    "@prisma/client": "^4.14.1",
+    "adminjs": "^7.0.6",
+    "fastify": "^4.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "nodemon": "^2.0.22",
+    "prisma": "^4.14.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
